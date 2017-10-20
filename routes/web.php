@@ -15,7 +15,7 @@ Route::get('/rules', 'HomeController@rulesSelect')
     ->name('rules');;
 Route::get('/rules/{lang}', 'HomeController@rules')
     ->name('rulesPDF');
-Route::get('/marketing', 'HomeController@marketing')
+Route::get('/marketing', 'HomeController@marketings')
     ->name('marketing');
 Route::get('/support', 'HomeController@support')
     ->name('support');
